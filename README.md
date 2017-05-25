@@ -11,6 +11,7 @@ I use [go-resources](https://github.com/omeid/go-resources) to embed non-go cont
 However, this trick only works if you're embedding resources in your main package and only run it from there, this package is here to help bridge this gap. It will help you embed and live load content of non-main packages as well.
 
 
+##### Please note that this package exist as a reference and should only be used for in development and debugging purposes, your software binary should _not_ rely on source code location, really.
 
 ### Documentation
 
