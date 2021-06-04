@@ -11,7 +11,7 @@ import (
 func Dir() string {
 	_, filename, _, _ := runtime.Caller(1)
 
-	return filename
+	return filepath.Dir(filename)
 }
 
 // Abs provides the absolute path of the of the provided path relative to the caller.
